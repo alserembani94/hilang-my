@@ -4,7 +4,7 @@ import { RiGithubFill, RiTwitterXFill } from 'react-icons/ri';
 const Footer = () => {
   return (
     <footer className="w-full max-w-screen-lg flex flex-col gap-12 px-4 py-8">
-      <div className="grid grid-cols-3 gap-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-12">
         <div className="text-left flex flex-col gap-2">
           <h3 className="underline underline-offset-1 text-3xl text-red-500">Hilang</h3>
           <p className="text-sm">Sebuah portal memudahkan mencari orang yang hilang.</p>
