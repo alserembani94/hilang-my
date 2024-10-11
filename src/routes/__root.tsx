@@ -30,7 +30,9 @@ function RootComponent() {
       {/* </div> */}
       {/* <hr /> */}
       <Outlet />
-      <TanStackRouterDevtools position="bottom-right" />
+      {
+        process.env.NODE_ENV !== 'production' && <TanStackRouterDevtools position="bottom-right" />
+      }
     </>
   )
 }
